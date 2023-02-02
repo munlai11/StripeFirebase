@@ -1,0 +1,35 @@
+{
+  "name": "ni9wqc",
+  "version": "0.0.0",
+  "description": "Demo application for the firestore-stripe-subscriptions extension.",
+  "main": "/public/index.html",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eject": "react-scripts eject",
+    "dev": "firebase serve",
+    "deploy": "firebase deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stripe-samples/firebase-subscription-payments.git"
+  },
+  "keywords": [
+    "stripe",
+    "payments",
+    "subscriptions",
+    "firebase",
+    "firestore"
+  ],
+  "author": "thorsten-stripe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stripe-samples/firebase-subscription-payments/issues"
+  },
+  "homepage": "https://github.com/stripe-samples/firebase-subscription-payments#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  }
+}
